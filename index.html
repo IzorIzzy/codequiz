@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Code Quiz</title>
+</head>
+<body>
+    <header>
+        <div>Time left:<span id="timer"></span></div>
+    </header>
+    <div id="startQuiz">
+        <h2>Code Quiz</h2>
+        <p>Press the start button to begin the quiz!</p>
+        <button id="startBtn">Start</button>
+    </div>
+
+    <div id="questions" class="hide">
+        <h3 id="questionTitle"></h3>
+        <div id="choices"></div>
+    </div>
+
+    <div id="endQuiz" class="hide">
+        <h2>Great Job!</h2>
+        <input id="initialsInput">
+        <button id="saveBtn">Save Score</button>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
